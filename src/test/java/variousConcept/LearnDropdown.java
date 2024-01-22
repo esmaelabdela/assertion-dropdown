@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import junit.framework.Assert;
 
+@SuppressWarnings("deprecation")
 public class LearnDropdown {
 
 	WebDriver driver;
@@ -63,6 +64,7 @@ public class LearnDropdown {
 	}
 
 	//@Test
+	@SuppressWarnings("deprecation")
 	public void addCustomer() throws InterruptedException {
 		loginTest2();
 		driver.findElement(CUSTOMER_MENUE_FIELD).click();
